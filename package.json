@@ -1,0 +1,19 @@
+{
+  "name": "do-be",
+  "version": "1.0.0",
+  "description": "online clothing app",
+  "main": "index.js",
+  "scripts": {
+    "serverDev": "npm run dev --prefix ./server",
+    "server": "npm run start --prefix ./server",
+    "client": "npm start --prefix ./client",
+    "dev": "concurrently \"npm run serverDev\" \"npm run client\" --kill-others",
+    "start": "concurrently \"npm run server\" \"npm run client\" --kill-others"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.0"
+  }
+}

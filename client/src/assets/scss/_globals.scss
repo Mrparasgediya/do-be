@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Gontserrat";
+  src: url("../fonts/Gontserrat-Light-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Jenriv";
+  src: url("../fonts/Jenriv-Titling-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Halaney";
+  src: url("../fonts/Halaney-Demo.woff2") format("woff2");
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f4fb;
+  font-family: "Gontserrat";
+  color: $black;
+}
+
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+// @media (max-width: 768px) {
+//   a {
+//     padding-bottom: 0.5rem;
+//     border-bottom: 0.2rem solid $white !important;
+//   }
+// }

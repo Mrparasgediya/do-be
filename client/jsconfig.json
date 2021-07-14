@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "firebase/*": ["firebase/*"],
+      "redux/*": ["redux/*"],
+      "components/*": ["components/*"],
+      "admin/*": ["admin/*"],
+      "pages/*": ["pages/*"],
+      "assets/*": ["assets/*"],
+      "api": ["api.js"],
+      "utils/*": ["utils/*"]
+    }
+  }
+}

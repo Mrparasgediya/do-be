@@ -1,0 +1,7 @@
+const statiActionTypes = {
+  SET_NEWSLETTER: "SET_NEWSLETTER",
+  SET_BRAND_VIDEO: "SET_BRAND_VIDEO",
+  TOGGLE_IS_HOME_BRAND_VIDEO_LOADING: "TOGGLE_IS_HOME_BRAND_VIDEO_LOADING",
+};
+
+export default statiActionTypes;

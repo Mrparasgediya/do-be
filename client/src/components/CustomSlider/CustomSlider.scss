@@ -1,0 +1,61 @@
+@import "../../assets/scss/style.scss";
+
+.swiper-pagination-bullet {
+  background-color: $pink;
+  opacity: 0.5 !important;
+  &-active {
+    opacity: 1 !important;
+    background-color: $pink;
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  border: 1px solid $white !important;
+  border-radius: 0.5rem;
+  background-color: $white;
+  width: 5rem !important;
+  &::after {
+    color: $pink !important;
+    font-size: 2rem !important;
+    padding: 1.5rem !important;
+    font-weight: 700 !important;
+  }
+}
+
+.swiper-button-prev {
+  left: 2.5rem !important;
+}
+
+.swiper-button-next {
+  right: 2.5rem !important;
+}
+
+.swiper-home-slider .swiper-pagination-bullets {
+  position: absolute;
+  bottom: calc(100% - 90%);
+  left: calc(100% - 130%);
+}
+
+.swiper-home-slider {
+  background-color: black;
+}
+
+.swiper-home-slider .swiper-pagination-bullet {
+  background-color: var(--color-white);
+  height: 1rem;
+  width: 1rem;
+  &:not(:last-child) {
+    margin-right: 2rem;
+  }
+  &-active {
+    background-color: var(--color-white);
+    transform: scale(2);
+  }
+}
+
+.swiper-without-indicators {
+  > .swiper-pagination {
+    display: none;
+  }
+}

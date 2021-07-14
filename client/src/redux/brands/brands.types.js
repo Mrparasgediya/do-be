@@ -1,0 +1,8 @@
+const brandsActionTypes = {
+  SET_BRANDS: "SET_BRANDS",
+  ADD_BRANDS: "ADD_BRANDS",
+  SET_LAST_BRAND_DOC: "SET_LAST_BRAND_DOC",
+  TOGGLE_IS_HOME_BRANDS_LOADING: "TOGGLE_IS_HOME_BRANDS_LOADING",
+};
+
+export default brandsActionTypes;
